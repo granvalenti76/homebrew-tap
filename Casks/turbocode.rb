@@ -1,8 +1,8 @@
 cask "turbocode" do
-  version "0.3.3"
-  sha256 "ca3672a36f60eeca7254d0caaa2ebf8401fd40fd96004e960f1fcad8c347acaa"
+  version "0.4"
+  sha256 "280f51c527d5b43dc6b0a11b16022cac9c80f11b2f74adf903bd9475b1996f38"
 
-  url "https://github.com/granvalenti76/TurboCode/releases/download/v#{version}/TurboCode-#{version}.zip"
+  url "https://github.com/granvalenti76/TurboCode/releases/download/v#{version}/TurboCode-v#{version}.zip"
   name "TurboCode"
   desc "Native macOS agent harness for Swift and Xcode"
   homepage "https://github.com/granvalenti76/TurboCode"
@@ -12,7 +12,8 @@ cask "turbocode" do
   caveats <<~EOS
     This alpha build is ad-hoc signed and is not notarized by Apple.
     macOS may require manual approval in Privacy & Security settings.
-    TurboCode 0.3.3 requires macOS 27 beta 5.
-    For earlier macOS 27 beta versions, use TurboCode 0.3.0.
+    TurboCode 0.4 requires the latest available macOS 27 beta.
+    Xcode 27 beta and Swift 6 are required for development workflows.
+    Node.js 24 or later is required when using TypeScript plugins.
   EOS
 end
