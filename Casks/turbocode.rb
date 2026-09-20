@@ -1,6 +1,6 @@
 cask "turbocode" do
-  version "0.6"
-  sha256 "8fff59ca84db379292a97e5d2d97207ae9b1eed4341e10c87c13a11a8b90d31f"
+  version "0.61"
+  sha256 "2df48e74d5c90f6c82fcba4534ce5f17f25f55f4ced6d13f1a568f335f61b0f9"
 
   url "https://github.com/granvalenti76/TurboCode/releases/download/v#{version}/TurboCode-#{version}.zip"
   name "TurboCode"
