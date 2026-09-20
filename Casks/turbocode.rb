@@ -12,7 +12,7 @@ cask "turbocode" do
   caveats <<~EOS
     This build is ad-hoc signed and is not notarized by Apple.
     macOS may require manual approval in Privacy & Security settings.
-    TurboCode 0.5 requires the latest available macOS 27 beta.
+    TurboCode 0.61 requires macOS 27.
     Xcode 27 beta and Swift 6 are required for development workflows.
     Node.js 24 or later is required when using TypeScript plugins.
   EOS
